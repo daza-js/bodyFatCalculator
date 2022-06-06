@@ -105,7 +105,9 @@ export const Bar: React.FunctionComponent = () => {
                   percentage={calcBodyFatPercentage}
                   BFP={bodyFatPercentage}
                 >
-                  <Typography>{bodyFatPercentage}%</Typography>
+                  <Typography variant="subtitle1" sx={{fontSize: 19}}>
+                    {bodyFatPercentage}%
+                  </Typography>
                 </RootFlag>
               </RootContentFlag>
               <RootBar captionsMetrics={captionsMetrics} />
@@ -116,7 +118,10 @@ export const Bar: React.FunctionComponent = () => {
                       <RootContentBox>
                         <RootBox color={item.color} />
                       </RootContentBox>
-                      <Typography variant="caption">
+                      <Typography
+                        variant="caption"
+                        sx={{ fontWeight: 700, py: 1 }}
+                      >
                         {item.subtitle1}
                       </Typography>
                       <Typography variant="caption">

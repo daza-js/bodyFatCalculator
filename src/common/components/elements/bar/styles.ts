@@ -24,7 +24,7 @@ export const RootCaption = styled.div`
   text-align: center;
   width: 100%;
   height: 80px;
-  padding-top: 10px;
+  padding-top: 15px;
 `;
 
 export const RootContentBox = styled.div`
@@ -39,8 +39,8 @@ export const ContentCaption = styled.div<TypeContentCaption>`
 `;
 
 export const RootBox = styled.div<TypeColor>`
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   background: ${(props) => `${props.color}`};
   border-color: white;
   border: 1px solid;
@@ -50,7 +50,7 @@ export const RootBox = styled.div<TypeColor>`
 export const RootContentFlag = styled.div`
   position: relative;
   width: 100%;
-  height: 50px;
+  height: 55px;
 `;
 
 export const RootFlag = styled.div<TypeRootFlag>`
@@ -63,7 +63,7 @@ export const RootFlag = styled.div<TypeRootFlag>`
   &:after {
     content: "";
     position: absolute;
-    top: 25px;
+    top: 30px;
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
